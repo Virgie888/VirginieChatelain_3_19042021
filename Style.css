@@ -1,0 +1,25 @@
+.filters{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+
+.filter{
+    display: flex;
+margin-top: 10px;
+}
+
+.numero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20px;
+    height: 20px;
+    background-color: #9356DC;
+    color: white;
+    border-radius: 50%;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+}
