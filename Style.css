@@ -3,27 +3,141 @@ body {
     color: black;
   }
 
+#searchbar{
+    display:flex;
+    background-color: rgb(237, 232, 240);
+    align-content: center;
+    justify-content: center;
+    margin:auto;
+    padding:20px;
+    width: 100%;
+        }
+    
+
+.recherche{
+display:flex;
+flex-direction:column;
+background-color: #f2f7f8;
+padding-top: 0px;
+padding-left: 0px;
+align-content: center;
+justify-content: center;
+  }
+
+.recherche h1{
+text-align: center;
+}
+
 .filters{
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+box-shadow: 0 0 7px #c1c1c1 ;
 }
 
 .filter{
-    display: flex;
+display: flex;
 margin-top: 10px;
+background-color: #f2f7f8;
+padding-top: 20px;
+padding-bottom: 20px;
+padding-left: 0px;
+margin: 50px;
+border-radius: 15px;
+width: 100%;
+height: 30px;
+box-shadow: 5px 8px 5px rgb(228, 231, 236);
+
+
+align-items: center;
+color: black;
 }
+
+.filter span{
+ 
+  font-size: 16px;
+  position: relative;
+  left: 20px;
+      }
+
+.choix{
+margin-left: 20px;
+      }
+
+i.fa-mobile-alt{
+  margin-right: 5px;
+  margin-left: 20px;
+    }
+
+i.fa-list{
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+i.fa-store{
+  margin-right: 20px; 
+  margin-left: 20px;
+}
+
+
+ a{
+   text-decoration: none;
+   color: black;
+ }
 
 .numero{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
     width: 20px;
     height: 20px;
     background-color: #9356DC;
     color: white;
     border-radius: 50%;
+    margin-left: -10px;
 }
+
+#restaurants{
+  background-color: #f2f7f8 ;
+}
+
+.choix-menu{
+  display: flex;
+  flex-direction: column;
+  height: 280px;
+   box-sizing: border-box;
+  border: 5px solid #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  position: relative;
+    }
+
+.choix-menu img{
+width: 100%;
+height: 180px;
+object-fit: cover;
+  }
+
+
+.menu-description{
+display: flex;
+justify-content: space-between;
+}
+
+.description{
+line-height: 1.8px;
+}
+
+.btn{
+position: absolute;
+background: #99E2D0;
+padding: 8px;
+margin: 0px;
+right: 5px;
+top: 5px;
+border-radius: 3px;
+}
+
 
 
 footer {
