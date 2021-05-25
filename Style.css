@@ -1,50 +1,87 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
 body {
     font-family: "Roboto", "Trebuchet MS", Arial, sans-serif;
     color: black;
   }
 
-#searchbar{
-    display:flex;
-    background-color: rgb(237, 232, 240);
-    align-content: center;
-    justify-content: center;
-    margin:auto;
-    padding:20px;
-    width: 100%;
-        }
-    
+header{
+display: flex;
+align-items: center;
+justify-content: center;
+height: 50px;
+padding: 30px;
+box-shadow: 3px black;
 
+}
+
+#searchbar{
+display:flex;
+background-color: #EAEAEA;
+align-content: center;
+justify-content: center;
+margin:auto;
+padding:20px;
+width: 100%;
+box-shadow: rgba(0, 0, 0, 0.09) 0px 3px 5px 0px inset;
+    }
+.left{
+margin-right: 10px;
+}
 .recherche{
 display:flex;
 flex-direction:column;
-background-color: #f2f7f8;
 padding-top: 0px;
 padding-left: 0px;
 align-content: center;
 justify-content: center;
   }
 
-.recherche h1{
+.reservation {
+background-color: #f2f7f8;
 text-align: center;
+padding: 15px;
+  }
+
+.bouton{
+  margin-top: 5px;
+  background-color: #9356DC;
+  box-shadow: grey;
+   
+  color: white;
+  align-content: center;
+  margin: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 0px;
+  border-radius: 30px;
+  width: 70%;
+  height: 50px;
+  box-shadow: 5px 8px 5px rgb(228, 231, 236);
 }
 
-.filters{
+#filters{
 display: flex;
 flex-direction: column;
 justify-content: space-between;
+align-items: center;
 box-shadow: 0 0 7px #c1c1c1 ;
+width: 100%;
 }
 
 .filter{
 display: flex;
-margin-top: 10px;
+margin-top: 30px;
 background-color: #f2f7f8;
-padding-top: 20px;
-padding-bottom: 20px;
+padding-top: 30px;
+padding-bottom: 30px;
 padding-left: 0px;
-margin: 50px;
 border-radius: 15px;
-width: 100%;
+width: 95%;
 height: 30px;
 box-shadow: 5px 8px 5px rgb(228, 231, 236);
 
